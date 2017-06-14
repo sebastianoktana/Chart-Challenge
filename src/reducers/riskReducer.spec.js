@@ -22,7 +22,7 @@ describe('risk reducer', () => {
  
  let initialStateChange = {
   risk:2,
-  data: data
+  data: data2
 }
 
  it('should handle Change Risk', () => {
