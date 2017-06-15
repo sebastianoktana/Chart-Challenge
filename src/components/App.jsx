@@ -7,7 +7,7 @@ import changeRiskAction from '../actions';
 const App = props => (
   <div>
     <Chart data={props.data} risk={props.risk} />
-    <ChangeRisk onChange={props.onChange} />
+    <ChangeRisk risk={props.risk} onChange={props.onChange} />
   </div>
 		);
 
