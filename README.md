@@ -32,6 +32,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 
 
-###Run the Test###
+###RunTest###
 
 npm run test
