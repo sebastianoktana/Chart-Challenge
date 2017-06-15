@@ -1,7 +1,7 @@
 
-
-export const changeRisk = (risk) => ({
+const changeRiskAction = risk => ({
   type: 'CHANGE_RISK',
-  risk
-})
+  risk,
+});
 
+export default changeRiskAction;
