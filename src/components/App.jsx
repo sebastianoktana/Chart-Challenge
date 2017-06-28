@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Chart from './Chart';
-import ChangeRisk from '../containers/changeRisk';
+import ChangeRisk from './ChangeRisk';
 import changeRiskAction from '../actions';
 
 const App = props => (

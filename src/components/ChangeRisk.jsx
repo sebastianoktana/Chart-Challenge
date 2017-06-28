@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const changeRisk = props => (
+const ChangeRisk = props => (
   <div>
     <br />
     <br />
@@ -24,5 +24,5 @@ const changeRisk = props => (
   </div>
   );
 
-export default changeRisk;
+export default ChangeRisk;
 

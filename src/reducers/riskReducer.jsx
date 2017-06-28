@@ -1,4 +1,5 @@
 
+import { CHANGE_RISK } from '../constants/AppConstants';
 
 const data = [300, 50, 100, 100, 20];
 data[0] = [300, 50, 100, 100, 20];
@@ -16,7 +17,7 @@ data[10] = [300, 50, 100, 150, 10];
 
 const riskReducer = (state = data, action) => {
   switch (action.type) {
-    case 'CHANGE_RISK':
+    case CHANGE_RISK:
       return {
         risk: action.risk,
         data: data[action.risk],
